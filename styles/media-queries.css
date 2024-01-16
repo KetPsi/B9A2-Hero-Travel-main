@@ -146,4 +146,23 @@
         font-size: 5vw;
     }
 
+
+    /* NEWSLETTER */
+    .newsletter {
+        flex-direction: column;
+    }
+
+    .newsletter .img-div,
+    .newsletter .form {
+        width: 100%;
+    }
+
+    .newsletter .img-div {
+        position: relative;
+        height: 300px;
+    }
+    .offer-tag {
+        position: absolute;
+        bottom: 50px;
+    }
 }
