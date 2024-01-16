@@ -68,7 +68,7 @@ main {
 
 .explore-travel {
     border-radius: 16px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.055)), url('../Images/explore-travel-banner.png');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.685), rgba(0, 0, 0, 0.055)), url('../images/explore-travel-banner.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -228,37 +228,37 @@ main {
 }
 
 .choose-destination .img-div .img-1 {
-    background-image: url('../Images/Maldives.png');
+    background-image: url('../images/Maldives.png');
     grid-column: 1/span 6;
 }
 
 .choose-destination .img-div .img-2 {
-    background-image: url('../Images/Indonesia.png');
+    background-image: url('../images/Indonesia.png');
     grid-column: 7/span 6;
 }
 
 .choose-destination .img-div .img-3 {
-    background-image: url('../Images/srilanka.png');
+    background-image: url('../images/srilanka.png');
     grid-column: 1/span 4;
 }
 
 .choose-destination .img-div .img-4 {
-    background-image: url('../Images/north-america.png');
+    background-image: url('../images/north-america.png');
     grid-column: 5/span 5;
 }
 
 .choose-destination .img-div .img-5 {
-    background-image: url('../Images/kashmir.png');
+    background-image: url('../images/kashmir.png');
     grid-column: 10/span 3;
 }
 
 .choose-destination .img-div .img-6 {
-    background-image: url('../Images/bangladesh.png');
+    background-image: url('../images/bangladesh.png');
     grid-column: 1/span 5;
 }
 
 .choose-destination .img-div .img-7 {
-    background-image: url('../Images/bandarban.png');
+    background-image: url('../images/bandarban.png');
     grid-column: 6/span 7;
 }
 
