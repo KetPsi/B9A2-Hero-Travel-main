@@ -1,0 +1,149 @@
+@media screen and (max-width: 600px) {
+    main {
+        width: 91%;
+    }
+
+    h2 {
+        font-size: 6vw;
+    }
+
+    /* EXPLORE TRAVEL SECTION */
+    .explore-travel {
+        padding-top: 25px;
+        padding-bottom: 20px;
+    }
+
+    /* .explore-travel h2 {
+        font-size: 8vw;
+    } */
+
+
+    .explore-travel form {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-width: 80%;
+    }
+
+    .explore-travel input,
+    .explore-travel select {
+        width: 95%;
+    }
+
+
+    /* POPULAR TOUR SECTION */
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .popular-tours .text-div {
+        flex: 1;
+    }
+
+    .popular-tours .img-div {
+        width: 100%;
+    }
+
+    .popular-tours p,
+    .popular-tours li {
+        padding-right: 5%;
+    }
+
+    .popular-tours li {
+        margin-left: 7%;
+    }
+
+
+    /* OUR POPUlAR TOURS */
+    .popular-tours {
+        flex-direction: column;
+    }
+
+    .popular-tours .img-div,
+    .popular-tours .text-div {
+        width: 100%;
+    }
+
+    .popular-tours .img-div {
+        margin-top: 40px;
+    }
+
+
+    /* CHOOSE YOUR DESTINATION SECTION */
+    .choose-destination {
+        height: auto;
+    }
+
+    .choose-destination .img-div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(7, 1fr);
+    }
+
+    .choose-destination h4 {
+        font-size: 18px;
+    }
+    .choose-destination .img-div * {
+        height: 250px;
+    }
+
+
+/* WHY US */
+
+    .why-us {
+        height: auto;
+    }
+    .why-us .img-div {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+
+    }
+
+    .why-us .card {
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+    }
+
+    #why-us-p,
+    .choose-destination p {
+        text-align: center;
+        padding-right: 7%;
+        padding-left: 7%;
+    }
+
+
+/* GET LOST */
+    .get-lost h2 {
+        padding-right: 0;
+    }
+
+    .get-lost {
+        flex-direction: column;
+    }
+
+    .get-lost .img-div,
+    .get-lost .text-div {
+        width: 100%;
+    }
+
+    .get-lost .img-div {
+        margin-top: 40px;
+    }
+    .get-lost li,
+    .get-lost p {
+        padding-right: 5%;
+    }
+    
+    .title {
+        width: 250px;
+    }
+    .title h1 {
+        font-size: 5vw;
+    }
+
+}
