@@ -409,6 +409,7 @@ iframe {
 .newsletter {
     display: flex;
     gap: 60px;
+    margin-bottom: 100px;
 }
 
 .newsletter .form {
@@ -417,7 +418,7 @@ iframe {
     flex-direction: column;
     padding: 30px;
     border: 1px solid  #5213485d;
-    border-radius: 8px;
+    border-radius: 16px;
 }
 
 .newsletter p {
@@ -450,6 +451,7 @@ iframe {
     margin-bottom: 25px;
 }
 .newsletter .img-div {
+    border-radius: 16px;
     width: 40%;
     background-image: url('../images/newsletter.png');
     background-repeat: no-repeat;
@@ -479,9 +481,10 @@ iframe {
     border-radius: 16px;
     width: 56%;
     position: absolute;
-    bottom: 0;
-    right: 0;
+    bottom: 80px;
+    right: 20px;
     background-color: #521348e0;
+    transform: rotate(-20deg);
 }
 
 footer {
