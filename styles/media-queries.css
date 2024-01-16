@@ -165,4 +165,19 @@
         position: absolute;
         bottom: 50px;
     }
+
+
+    /* HAMBURGER */
+    /* .hamburger {
+        display: block;
+    } */
+
+    .header nav {
+        display: none;
+        margin-bottom: 10px;
+    }
+
+    .menu-btn {
+        display: block;
+    }
 }

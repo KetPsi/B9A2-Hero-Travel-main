@@ -42,7 +42,8 @@ p {
     text-align: left;
 }
 
-main {
+main,
+header {
     width: 81.25%;
     margin: 0 auto;
 
@@ -62,7 +63,79 @@ main {
     line-height: normal;
 }
 
+/* NAV BAR */
+.header {
+    font-size: 20px;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.header nav {
+    margin-right: 30px;
+}
+.header nav ul {
+    display: flex;
+    gap:  20px;
+}
 
+.header nav li {
+    list-style: none;
+}
+
+.header nav a:link,
+.header nav a:active,
+.header nav a:visited {
+    color:rgba(0, 0, 0, 0.932);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.header nav a:hover {
+    font-weight: 900;
+}
+
+
+/* HAMBURGER */
+.hamburger {
+    display: none;
+    margin-bottom: 30px;
+}
+
+.hamburger nav {
+    margin-right: 30px;
+}
+.hamburger nav ul {
+    display: flex;
+    flex-direction: column;
+    gap:  20px;
+    align-items: end;
+}
+
+.hamburger nav li {
+    list-style: none;
+}
+
+.hamburger nav a:link,
+.hamburger nav a:active,
+.hamburger nav a:visited {
+    color:rgba(0, 0, 0, 0.932);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.hamburger nav a:hover {
+    font-weight: 900;
+}
+
+.menu-btn {
+    display: none;
+    /* width: 10px;
+    height: 5px; */
+    background-color: white;
+    border: none;
+}
 
 /* EXPLORE TRAVEL SECTION */
 
@@ -527,8 +600,7 @@ footer .gray-p {
 }
 
 .title h1 {
-    flex: 1;
-    font-size: 32px;
+    font-size: 2vw;
     font-weight: 900;
 }
 
